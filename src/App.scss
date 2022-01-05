@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: red;
+  }
+  border: 1px solid black;
+  margin: 0 5px;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

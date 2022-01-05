@@ -1,23 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import react from 'react';
+import ImageBrowser from './components/ImageBrowser';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <p>This is a picture of 2021 </p>
+      <ImageBrowser image ="http://www.vuodenluontokuva.fi/vlk/userfiles/vlk2021/sarjavoittajat/e.1._liskomies_pekka%20tuuri.jpg" className="container__img" />
     </div>
   );
 }
